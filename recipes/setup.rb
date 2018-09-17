@@ -7,7 +7,7 @@ node['ipaddress']
 node['memory']['total']
 
 #
-file '/etc/motb' do
+file '/etc/motd' do
   content "This server is managed by Ricardo Alcazar."
 end
 
