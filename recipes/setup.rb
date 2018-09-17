@@ -8,6 +8,9 @@ node['memory']['total']
 
 #
 file '/etc/motd' do
-  content "This server is managed by Ricardo Alcazar."
+  content "This server is managed by Ricardo Alcazar.
+  HOSTNAME: ${node['ipaddress']}
+
+  ""
 end
 
